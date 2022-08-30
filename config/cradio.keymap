@@ -67,10 +67,10 @@
 
         left_layer {
             bindings = <
- &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0
-         &kp TAB        &kp LC(S)          &kp DQT        &kp PIPE2         &kp HASH        &kp MINUS     &kp KP_EQUAL         &kp LBKT         &kp RBKT          &kp DEL
-         &kp ESC        &kp TILDE  &kp NON_US_BSLH  &kp NON_US_HASH       &kp TILDE2        &kp MINUS        &kp GRAVE         &kp LBKT         &kp RBKT          &kp DEL
-                                                              &mo 1         &kp LGUI         &kp RGUI            &mo 2
+    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0
+            &kp TAB        &kp LC(S)          &kp DQT        &kp PIPE2         &kp HASH        &kp MINUS     &kp KP_EQUAL         &kp LBKT         &kp RBKT    &kp BACKSPACE
+ &mt LEFT_SHIFT ESC        &kp TILDE  &kp NON_US_BSLH  &kp NON_US_HASH       &kp TILDE2        &kp MINUS        &kp GRAVE   &kp LEFT_BRACE  &kp RIGHT_BRACE          &kp DEL
+                                                                 &mo 1         &kp LGUI         &kp RGUI            &mo 2
             >;
         };
 
@@ -85,10 +85,10 @@
 
         tri_layer {
             bindings = <
- &kp K_CUT  &kp K_COPY  &kp K_PASTE  &kp K_REFRESH  &trans  &trans     &trans           &trans      &trans  &trans
-    &kp F1      &kp F2       &kp F3         &kp F4  &kp F5  &trans  &kp PG_UP  &kp K_VOLUME_UP  &kp K_MUTE  &trans
-    &trans      &trans       &trans         &kp F6  &kp F7  &trans  &kp PG_DN     &kp K_VOL_DN      &trans  &trans
-                                            &trans  &trans  &trans     &trans
+ &trans  &trans  &trans  &trans  &trans  &trans     &trans              &trans      &trans  &trans
+ &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &trans  &kp PG_UP    &kp K_VOLUME_UP2  &kp K_MUTE  &trans
+ &trans  &trans  &trans  &kp F6  &kp F7  &trans  &kp PG_DN  &kp K_VOLUME_DOWN2      &trans  &trans
+                         &trans  &trans  &trans     &trans
             >;
         };
     };
